@@ -6,3 +6,5 @@ To use:
 - Ex: https://chipotlecodes.netlify.app/?c=HKSJ23
 - The link will now redirect any users to their SMS app, where both the code and contact (888-222) will be prepopulated
 - For mobile use on both iOS and Android
+
+![Chipotle Code Autofill Demo](demo.gif)
