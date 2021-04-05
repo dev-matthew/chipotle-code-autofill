@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CHIPOTLE CODES</title>
+  </head>
+  <body onload="outputCode()">
+    <p>
+      <a id="redirect" href="sms:888222;?&body=CODE"></a>
+
+      <script>
+        function outputCode() {
+          var url = new URL(window.location.href);
+          var code = url.searchParams.get("c");
+          console.log(code);
+          document.getElementById("redirect").href = "sms:888222;?&body=" + code;
+          document.getElementById('redirect').click();
+        }
+      </script>
+    </p>
+  </body>
+</html>
